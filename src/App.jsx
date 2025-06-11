@@ -113,6 +113,8 @@ function App() {
               return
             }
 
+            setSelectedTab(todoItem.priority)
+
             setTodoList([todoItem, ...todoList])
             setTodoItem({
               task: "",
