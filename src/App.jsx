@@ -113,7 +113,7 @@ function App() {
               return
             }
 
-            setSelectedTab(todoItem.priority)
+            setSelectedTab("All")
 
             setTodoList([todoItem, ...todoList])
             setTodoItem({
