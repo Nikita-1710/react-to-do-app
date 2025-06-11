@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from 'react'
-import ToDoCard from './todoCard';
+import ToDoCard from './ToDoCard';
 import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
